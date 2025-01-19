@@ -173,8 +173,8 @@ else:
     # Navigation bar
     st.markdown("""
         <div class="navbar">
-            <a href="https://example.com/our-methodology" target="_blank">Our Methodology</a>
-            <a href="https://example.com/our-mission" target="_blank">Our Mission</a>
+            <a href="https://docs.google.com/document/d/1oZxbOEGj4_4g1aRHMUqgs9TXsYt7OwbdckUR_te2DM8/edit?tab=t.0" target="_blank">Our Methodology</a>
+            <a href="https://docs.google.com/document/d/1oZxbOEGj4_4g1aRHMUqgs9TXsYt7OwbdckUR_te2DM8/edit?tab=t.0" target="_blank">Our Mission</a>
         </div>
         """, unsafe_allow_html=True)
 
