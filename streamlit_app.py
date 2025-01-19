@@ -118,13 +118,27 @@ data_normalized_final_merged = normalize_dataset(data_final_merged, "FinalMerged
 # Combine the datasets
 combined_data_normalized = pd.concat([data_normalized_book1, data_normalized_final_merged], ignore_index=True)
 
+# Ensure Date column is properly converted and NaT values are handled
+combined_data_normalized['Date'] = pd.to_datetime(combined_data_normalized['Date'], errors='coerce')
+
+# Remove NaT values and set default values safely
+valid_dates = combined_data_normalized['Date'].dropna()
+
+if not valid_dates.empty:
+    default_start_date = valid_dates.min().date()
+    default_end_date = valid_dates.max().date()
+else:
+    default_start_date = pd.to_datetime("2020-01-01").date()
+    default_end_date = pd.to_datetime("2024-12-31").date()
+
 # Sidebar for Advanced Search
 st.sidebar.markdown("## Advanced Search for Tweets")
 with st.sidebar.form(key='advanced_search_form'):
     key_terms_1 = st.text_input("Key Term 1", "")
     key_terms_2 = st.text_input("Key Term 2 (Optional)", "")
     key_terms_3 = st.text_input("Key Term 3 (Optional)", "")
-    time_period = st.selectbox("Time period (Optional)", options=["All", "2020", "2021", "2022", "2023", "2024"], index=0)
+    start_date = st.date_input("Start Date", default_start_date)
+    end_date = st.date_input("End Date", default_end_date)
     reply_count = st.slider("Minimum Reply Count", 0, 50, 0)
     like_count = st.slider("Minimum Like Count", 0, 50, 0)
     retweet_count = st.slider("Minimum Retweet Count", 0, 50, 0)
@@ -133,31 +147,31 @@ with st.sidebar.form(key='advanced_search_form'):
 if submit_button:
     filtered_data = combined_data_normalized.copy()
 
-    # Initialize keyword filter
-    keyword_filter = pd.Series(True, index=filtered_data.index)
-
     # Apply keyword filtering
+    keyword_filter = pd.Series(True, index=filtered_data.index)
     if key_terms_1:
         keyword_filter &= filtered_data['Text'].str.contains(key_terms_1, case=False, na=False)
     if key_terms_2:
         keyword_filter &= filtered_data['Text'].str.contains(key_terms_2, case=False, na=False)
     if key_terms_3:
         keyword_filter &= filtered_data['Text'].str.contains(key_terms_3, case=False, na=False)
-
-    # Apply the filter to the DataFrame
+    
     filtered_data = filtered_data[keyword_filter]
 
-    # Apply time filtering
-    if time_period != "All":
-        filtered_data = filtered_data[pd.to_datetime(filtered_data['Date'], errors='coerce').dt.year.astype(str) == time_period]
+    # Apply date range filtering
+    filtered_data = filtered_data[
+        (filtered_data['Date'].notna()) & 
+        (filtered_data['Date'] >= pd.to_datetime(start_date)) & 
+        (filtered_data['Date'] <= pd.to_datetime(end_date))
+    ]
 
     # Apply count filters
     if reply_count > 0:
-        filtered_data = filtered_data[filtered_data['Reply Count'] >= reply_count]
+        filtered_data = filtered_data[filtered_data['Reply Count'].fillna(0) >= reply_count]
     if like_count > 0:
-        filtered_data = filtered_data[filtered_data['Like Count'] >= like_count]
+        filtered_data = filtered_data[filtered_data['Like Count'].fillna(0) >= like_count]
     if retweet_count > 0:
-        filtered_data = filtered_data[filtered_data['Reply Count'] >= retweet_count]
+        filtered_data = filtered_data[filtered_data['Reply Count'].fillna(0) >= retweet_count]
 
     # Display results or a message if no results
     if filtered_data.empty:
@@ -166,6 +180,8 @@ if submit_button:
         st.markdown("### Filtered Data")
         st.dataframe(filtered_data)
 
+
+
 else:
     # Header for the homepage
     st.markdown("<div class='header'><h1>Mpox Dashboard</h1></div>", unsafe_allow_html=True)
@@ -173,8 +189,8 @@ else:
     # Navigation bar
     st.markdown("""
         <div class="navbar">
-            <a href="https://docs.google.com/document/d/1oZxbOEGj4_4g1aRHMUqgs9TXsYt7OwbdckUR_te2DM8/edit?tab=t.0" target="_blank">Our Methodology</a>
-            <a href="https://docs.google.com/document/d/1oZxbOEGj4_4g1aRHMUqgs9TXsYt7OwbdckUR_te2DM8/edit?tab=t.0" target="_blank">Our Mission</a>
+            <a href="https://example.com/our-methodology" target="_blank">Our Methodology</a>
+            <a href="https://example.com/our-mission" target="_blank">Our Mission</a>
         </div>
         """, unsafe_allow_html=True)
 
