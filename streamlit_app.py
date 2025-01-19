@@ -133,8 +133,10 @@ with st.sidebar.form(key='advanced_search_form'):
 if submit_button:
     filtered_data = combined_data_normalized.copy()
 
+    # Initialize keyword filter
+    keyword_filter = pd.Series(True, index=filtered_data.index)
+
     # Apply keyword filtering
-    keyword_filter = True
     if key_terms_1:
         keyword_filter &= filtered_data['Text'].str.contains(key_terms_1, case=False, na=False)
     if key_terms_2:
@@ -142,6 +144,7 @@ if submit_button:
     if key_terms_3:
         keyword_filter &= filtered_data['Text'].str.contains(key_terms_3, case=False, na=False)
 
+    # Apply the filter to the DataFrame
     filtered_data = filtered_data[keyword_filter]
 
     # Apply time filtering
@@ -156,8 +159,12 @@ if submit_button:
     if retweet_count > 0:
         filtered_data = filtered_data[filtered_data['Reply Count'] >= retweet_count]
 
-    st.markdown("### Filtered Data")
-    st.dataframe(filtered_data)
+    # Display results or a message if no results
+    if filtered_data.empty:
+        st.warning("No results found for the selected filters.")
+    else:
+        st.markdown("### Filtered Data")
+        st.dataframe(filtered_data)
 
 else:
     # Header for the homepage
