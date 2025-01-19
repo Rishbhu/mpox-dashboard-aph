@@ -137,8 +137,22 @@ with st.sidebar.form(key='advanced_search_form'):
     key_terms_1 = st.text_input("Key Term 1", "")
     key_terms_2 = st.text_input("Key Term 2 (Optional)", "")
     key_terms_3 = st.text_input("Key Term 3 (Optional)", "")
-    start_date = st.date_input("Start Date", default_start_date)
-    end_date = st.date_input("End Date", default_end_date)
+    
+    # Date inputs with handling for year and month selections
+    selected_start_date = st.date_input("Start Date", default_start_date)
+    selected_end_date = st.date_input("End Date", default_end_date)
+
+    # Ensure year and month selections default to the first day if needed
+    if selected_start_date.day == 1:
+        start_date = selected_start_date
+    else:
+        start_date = selected_start_date.replace(day=1)
+
+    if selected_end_date.day == 1:
+        end_date = selected_end_date.replace(day=1)
+    else:
+        end_date = selected_end_date
+
     reply_count = st.slider("Minimum Reply Count", 0, 50, 0)
     like_count = st.slider("Minimum Like Count", 0, 50, 0)
     retweet_count = st.slider("Minimum Retweet Count", 0, 50, 0)
@@ -179,6 +193,7 @@ if submit_button:
     else:
         st.markdown("### Filtered Data")
         st.dataframe(filtered_data)
+
 
 
 
