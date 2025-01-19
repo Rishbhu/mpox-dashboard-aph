@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="786" style="font-family:monospace;font-size:13px" version="1.1" width="1024">
+  <defs/>
+  <rect fill="#FFF" height="786" stroke="#000" stroke-width="2" width="1024" x="0" y="0"/>
+  <svg height="40.96" width="100%" x="0" y="0">
+    <defs/>
+    <rect fill="#000" height="100%" width="100%" x="0" y="0"/>
+    <text dominant-baseline="middle" fill="#FFF" style="font-size:20px" text-anchor="middle" x="50%" y="50%">'1_19_merged.csv': Items per month</text>
+  </svg>
+  <svg height="20.48" width="100.352" x="923.648" y="765.52">
+    <defs/>
+    <rect fill="#000" height="100%" width="100%" x="0" y="0"/>
+    <a target="_blank" xlink:href="https://4cat.nl">
+      <text dominant-baseline="middle" fill="#FFF" style="font-size:10px" text-anchor="middle" x="50%" y="50%">made with 4CAT</text>
+    </a>
+  </svg>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="90.96000000000001" y2="90.96000000000001"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="152.964" y2="152.964"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="214.96800000000002" y2="214.96800000000002"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="276.972" y2="276.972"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="338.976" y2="338.976"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="400.98" y2="400.98"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="462.98400000000004" y2="462.98400000000004"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="524.9879999999999" y2="524.9879999999999"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="586.992" y2="586.992"/>
+  <line stroke="#EEE" stroke-width="2" x1="100" x2="974" y1="648.996" y2="648.996"/>
+  <path d="M 101.820833 711.000000 L 101.820833 659.196400 C 101.820833 655.196400 101.820833 655.196400 105.820833 655.196400 L 130.595833 655.196400 C 134.595833 655.196400 134.595833 655.196400 134.595833 659.196400 L 134.595833 711.000000 Z" fill="#000"/>
+  <path d="M 138.237500 711.000000 L 138.237500 639.665140 C 138.237500 635.665140 138.237500 635.665140 142.237500 635.665140 L 167.012500 635.665140 C 171.012500 635.665140 171.012500 635.665140 171.012500 639.665140 L 171.012500 711.000000 Z" fill="#000"/>
+  <path d="M 174.654167 711.000000 L 174.654167 672.837280 C 174.654167 668.837280 174.654167 668.837280 178.654167 668.837280 L 203.429167 668.837280 C 207.429167 668.837280 207.429167 668.837280 207.429167 672.837280 L 207.429167 711.000000 Z" fill="#000"/>
+  <path d="M 211.070833 711.000000 L 211.070833 671.907220 C 211.070833 667.907220 211.070833 667.907220 215.070833 667.907220 L 239.845833 667.907220 C 243.845833 667.907220 243.845833 667.907220 243.845833 671.907220 L 243.845833 711.000000 Z" fill="#000"/>
+  <path d="M 247.487500 711.000000 L 247.487500 626.644300 C 247.487500 622.644300 247.487500 622.644300 251.487500 622.644300 L 276.262500 622.644300 C 280.262500 622.644300 280.262500 622.644300 280.262500 626.644300 L 280.262500 711.000000 Z" fill="#000"/>
+  <path d="M 283.904167 711.000000 L 283.904167 677.590920 C 283.904167 673.590920 283.904167 673.590920 287.904167 673.590920 L 312.679167 673.590920 C 316.679167 673.590920 316.679167 673.590920 316.679167 677.590920 L 316.679167 711.000000 Z" fill="#000"/>
+  <path d="M 320.320833 711.000000 L 320.320833 695.055380 C 320.320833 691.055380 320.320833 691.055380 324.320833 691.055380 L 349.095833 691.055380 C 353.095833 691.055380 353.095833 691.055380 353.095833 695.055380 L 353.095833 711.000000 Z" fill="#000"/>
+  <path d="M 356.737500 711.000000 L 356.737500 695.778760 C 356.737500 691.778760 356.737500 691.778760 360.737500 691.778760 L 385.512500 691.778760 C 389.512500 691.778760 389.512500 691.778760 389.512500 695.778760 L 389.512500 711.000000 Z" fill="#000"/>
+  <path d="M 393.154167 711.000000 L 393.154167 699.809020 C 393.154167 695.809020 393.154167 695.809020 397.154167 695.809020 L 421.929167 695.809020 C 425.929167 695.809020 425.929167 695.809020 425.929167 699.809020 L 425.929167 711.000000 Z" fill="#000"/>
+  <path d="M 429.570833 711.000000 L 429.570833 699.292320 C 429.570833 695.292320 429.570833 695.292320 433.570833 695.292320 L 458.345833 695.292320 C 462.345833 695.292320 462.345833 695.292320 462.345833 699.292320 L 462.345833 711.000000 Z" fill="#000"/>
+  <path d="M 465.987500 711.000000 L 465.987500 692.988580 C 465.987500 688.988580 465.987500 688.988580 469.987500 688.988580 L 494.762500 688.988580 C 498.762500 688.988580 498.762500 688.988580 498.762500 692.988580 L 498.762500 711.000000 Z" fill="#000"/>
+  <path d="M 502.404167 711.000000 L 502.404167 698.052240 C 502.404167 694.052240 502.404167 694.052240 506.404167 694.052240 L 531.179167 694.052240 C 535.179167 694.052240 535.179167 694.052240 535.179167 698.052240 L 535.179167 711.000000 Z" fill="#000"/>
+  <path d="M 575.237500 711.000000 L 575.237500 710.896660 L 604.012500 710.896660 L 608.012500 711.000000 Z" fill="#000"/>
+  <path d="M 648.070833 711.000000 L 648.070833 710.483300 L 676.845833 710.483300 L 680.845833 711.000000 Z" fill="#000"/>
+  <path d="M 684.487500 711.000000 L 684.487500 695.985440 C 684.487500 691.985440 684.487500 691.985440 688.487500 691.985440 L 713.262500 691.985440 C 717.262500 691.985440 717.262500 691.985440 717.262500 695.985440 L 717.262500 711.000000 Z" fill="#000"/>
+  <path d="M 720.904167 711.000000 L 720.904167 675.730800 C 720.904167 671.730800 720.904167 671.730800 724.904167 671.730800 L 749.679167 671.730800 C 753.679167 671.730800 753.679167 671.730800 753.679167 675.730800 L 753.679167 711.000000 Z" fill="#000"/>
+  <path d="M 757.320833 711.000000 L 757.320833 692.471880 C 757.320833 688.471880 757.320833 688.471880 761.320833 688.471880 L 786.095833 688.471880 C 790.095833 688.471880 790.095833 688.471880 790.095833 692.471880 L 790.095833 711.000000 Z" fill="#000"/>
+  <path d="M 793.737500 711.000000 L 793.737500 118.521520 C 793.737500 114.521520 793.737500 114.521520 797.737500 114.521520 L 822.512500 114.521520 C 826.512500 114.521520 826.512500 114.521520 826.512500 118.521520 L 826.512500 711.000000 Z" fill="#000"/>
+  <path d="M 830.154167 711.000000 L 830.154167 337.602320 C 830.154167 333.602320 830.154167 333.602320 834.154167 333.602320 L 858.929167 333.602320 C 862.929167 333.602320 862.929167 333.602320 862.929167 337.602320 L 862.929167 711.000000 Z" fill="#000"/>
+  <path d="M 866.570833 711.000000 L 866.570833 692.471880 C 866.570833 688.471880 866.570833 688.471880 870.570833 688.471880 L 895.345833 688.471880 C 899.345833 688.471880 899.345833 688.471880 899.345833 692.471880 L 899.345833 711.000000 Z" fill="#000"/>
+  <path d="M 902.987500 711.000000 L 902.987500 710.896660 L 931.762500 710.896660 L 935.762500 711.000000 Z" fill="#000"/>
+  <path d="M 939.404167 711.000000 L 939.404167 710.556380 C 939.404167 706.556380 939.404167 706.556380 943.404167 706.556380 L 968.179167 706.556380 C 972.179167 706.556380 972.179167 706.556380 972.179167 710.556380 L 972.179167 711.000000 Z" fill="#000"/>
+  <line stroke="#000" stroke-width="2" x1="100" x2="974" y1="711" y2="711"/>
+  <line stroke="#000" stroke-width="2" x1="100" x2="100" y1="90.96000000000001" y2="711"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="90.96000000000001" y2="90.96000000000001"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="152.964" y2="152.964"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="214.96800000000002" y2="214.96800000000002"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="276.972" y2="276.972"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="338.976" y2="338.976"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="400.98" y2="400.98"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="462.98400000000004" y2="462.98400000000004"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="524.9879999999999" y2="524.9879999999999"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="586.992" y2="586.992"/>
+  <line stroke="#000" stroke-width="2" x1="95" x2="100" y1="648.996" y2="648.996"/>
+  <line stroke="#000" stroke-width="2" x1="118.20833333333333" x2="118.20833333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="154.625" x2="154.625" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="191.04166666666666" x2="191.04166666666666" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="227.45833333333331" x2="227.45833333333331" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="263.875" x2="263.875" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="300.29166666666663" x2="300.29166666666663" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="336.7083333333333" x2="336.7083333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="373.125" x2="373.125" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="409.54166666666663" x2="409.54166666666663" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="445.9583333333333" x2="445.9583333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="482.375" x2="482.375" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="518.7916666666666" x2="518.7916666666666" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="555.2083333333333" x2="555.2083333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="591.625" x2="591.625" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="628.0416666666666" x2="628.0416666666666" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="664.4583333333333" x2="664.4583333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="700.875" x2="700.875" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="737.2916666666666" x2="737.2916666666666" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="773.7083333333333" x2="773.7083333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="810.125" x2="810.125" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="846.5416666666666" x2="846.5416666666666" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="882.9583333333333" x2="882.9583333333333" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="919.375" x2="919.375" y1="711" y2="716"/>
+  <line stroke="#000" stroke-width="2" x1="955.7916666666666" x2="955.7916666666666" y1="711" y2="716"/>
+  <svg height="20.0" width="50.0" x="40.0" y="704.1733333333333">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">0</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="642.1693333333333">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">600</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="580.1653333333333">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">1200</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="518.1613333333333">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">1800</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="456.1573333333334">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">2400</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="394.15333333333336">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">3000</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="332.14933333333335">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">3600</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="270.1453333333334">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">4200</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="208.14133333333336">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">4800</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="146.1373333333334">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">5400</text>
+  </svg>
+  <svg height="20.0" width="50.0" x="40.0" y="84.13333333333337">
+    <defs/>
+    <text dominant-baseline="middle" text-anchor="end" x="100%" y="50%">6000</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="87.48833333333333" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Jan</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="87.48833333333333" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2023</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="160.32166666666666" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Mar</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="160.32166666666666" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2023</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="233.15499999999994" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">May</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="233.15499999999994" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2023</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="305.98833333333334" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Jul</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="305.98833333333334" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2023</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="378.8216666666667" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Sep</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="378.8216666666667" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2023</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="451.6550000000001" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Nov</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="451.6550000000001" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2023</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="524.4883333333335" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Jan</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="524.4883333333335" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2024</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="597.3216666666667" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Mar</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="597.3216666666667" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2024</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="670.155" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">May</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="670.155" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2024</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="742.9883333333332" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Jul</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="742.9883333333332" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2024</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="815.8216666666665" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Sep</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="815.8216666666665" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2024</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="888.6549999999997" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="0" text-anchor="middle" x="50%" y="0%">Nov</text>
+  </svg>
+  <svg height="75" overflow="visible" width="61.44" x="888.6549999999997" y="731">
+    <defs/>
+    <text dominant-baseline="middle" dy="15.36" text-anchor="middle" x="50%" y="0%">2024</text>
+  </svg>
+</svg>
