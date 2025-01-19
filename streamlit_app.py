@@ -115,6 +115,40 @@ def normalize_dataset(dataset, source):
 data_normalized_book1 = normalize_dataset(data_book1, "Book1")
 data_normalized_final_merged = normalize_dataset(data_final_merged, "FinalMerged")
 
+# Sidebar Navigation
+page = st.sidebar.radio(
+    "Navigate",
+    ["Homepage", "Our Mission", "Data Visualization", "Advanced Search"]
+)
+
+# Homepage
+if page == "Homepage":
+    st.markdown("<div class='header'><h1>Mpox Dashboard</h1></div>", unsafe_allow_html=True)
+    total_tweets = len(combined_data_normalized)
+    total_cases_in_austin = combined_data_normalized['Location'].str.contains("Austin", case=False, na=False).sum()
+    col1, col2 = st.columns(2)
+    col1.metric("Total Number of Tweets", total_tweets)
+    col2.metric("Total Cases in Austin", total_cases_in_austin)
+
+# Our Mission
+elif page == "Our Mission":
+    st.markdown("<div class='header'><h1>Our Mission</h1></div>", unsafe_allow_html=True)
+    st.write(
+        "Learn more about our mission [here](https://docs.google.com/document/d/1oZxbOEGj4_4g1aRHMUqgs9TXsYt7OwbdckUR_te2DM8/edit?tab=t.0)."
+    )
+
+# Data Visualization
+elif page == "Data Visualization":
+    st.markdown("<div class='header'><h1>Data Visualization</h1></div>", unsafe_allow_html=True)
+    st.image(
+        "/mnt/data/preset-histogram-8158193abd6cebfa21368f3d2a887c39.svg", 
+        caption="Data Histogram"
+    )
+
+# Advanced Search
+elif page == "Advanced Search":
+    advanced_search()
+
 # Combine the datasets
 combined_data_normalized = pd.concat([data_normalized_book1, data_normalized_final_merged], ignore_index=True)
 
