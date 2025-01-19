@@ -83,7 +83,7 @@ st.markdown(
 
 # Load datasets
 file_path_book1 = "Copy of Book1.csv.xlsx"
-file_path_final_merged = "final_merged_mpox_data.csv"
+file_path_final_merged = "1_19_merged.csv"
 
 data_book1 = pd.read_excel(file_path_book1)
 data_final_merged = pd.read_csv(file_path_final_merged)
